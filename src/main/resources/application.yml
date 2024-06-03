@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: landmark-service-webflux
+
+#  r2dbc:
+#    url: r2dbc:h2:file:///:/testdb
+  r2dbc:
+    host: localhost
+    port: 5432
+    username: asset
+    password: asset
+    database: asset
